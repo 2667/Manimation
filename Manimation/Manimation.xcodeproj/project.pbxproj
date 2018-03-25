@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52455C120655FE000561EEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52455C020655FE000561EEB /* AppDelegate.m */; };
+		A52455C420655FE000561EEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52455C320655FE000561EEB /* ViewController.m */; };
+		A52455C720655FE000561EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52455C520655FE000561EEB /* Main.storyboard */; };
+		A52455C920655FE000561EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52455C820655FE000561EEB /* Assets.xcassets */; };
+		A52455CC20655FE000561EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52455CA20655FE000561EEB /* LaunchScreen.storyboard */; };
+		A52455CF20655FE000561EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52455CE20655FE000561EEB /* main.m */; };
+		A52455D82067948F00561EEB /* CALayer+MANAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A52455D72067948F00561EEB /* CALayer+MANAdditions.m */; };
+		A52455DB2067956800561EEB /* MANAnimationMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A52455DA2067956800561EEB /* MANAnimationMaker.m */; };
+		A52455DE20679EBD00561EEB /* MANManimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A52455DD20679EBD00561EEB /* MANManimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A52455BC20655FE000561EEB /* Manimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52455BF20655FE000561EEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A52455C020655FE000561EEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A52455C220655FE000561EEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A52455C320655FE000561EEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A52455C620655FE000561EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52455C820655FE000561EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A52455CB20655FE000561EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A52455CD20655FE000561EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52455CE20655FE000561EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A52455D62067948F00561EEB /* CALayer+MANAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+MANAdditions.h"; sourceTree = "<group>"; };
+		A52455D72067948F00561EEB /* CALayer+MANAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MANAdditions.m"; sourceTree = "<group>"; };
+		A52455D92067956800561EEB /* MANAnimationMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MANAnimationMaker.h; sourceTree = "<group>"; };
+		A52455DA2067956800561EEB /* MANAnimationMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MANAnimationMaker.m; sourceTree = "<group>"; };
+		A52455DC20679EBD00561EEB /* MANManimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MANManimator.h; sourceTree = "<group>"; };
+		A52455DD20679EBD00561EEB /* MANManimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MANManimator.m; sourceTree = "<group>"; };
+		A52455E22067ADCD00561EEB /* Manimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manimation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52455B920655FE000561EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52455B320655FE000561EEB = {
+			isa = PBXGroup;
+			children = (
+				A52455BE20655FE000561EEB /* Manimation */,
+				A52455BD20655FE000561EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52455BD20655FE000561EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52455BC20655FE000561EEB /* Manimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52455BE20655FE000561EEB /* Manimation */ = {
+			isa = PBXGroup;
+			children = (
+				A52455D5206793E800561EEB /* Manimation */,
+				A52455BF20655FE000561EEB /* AppDelegate.h */,
+				A52455C020655FE000561EEB /* AppDelegate.m */,
+				A52455C220655FE000561EEB /* ViewController.h */,
+				A52455C320655FE000561EEB /* ViewController.m */,
+				A52455C520655FE000561EEB /* Main.storyboard */,
+				A52455C820655FE000561EEB /* Assets.xcassets */,
+				A52455CA20655FE000561EEB /* LaunchScreen.storyboard */,
+				A52455CD20655FE000561EEB /* Info.plist */,
+				A52455CE20655FE000561EEB /* main.m */,
+			);
+			path = Manimation;
+			sourceTree = "<group>";
+		};
+		A52455D5206793E800561EEB /* Manimation */ = {
+			isa = PBXGroup;
+			children = (
+				A52455E22067ADCD00561EEB /* Manimation.h */,
+				A52455D62067948F00561EEB /* CALayer+MANAdditions.h */,
+				A52455D72067948F00561EEB /* CALayer+MANAdditions.m */,
+				A52455D92067956800561EEB /* MANAnimationMaker.h */,
+				A52455DA2067956800561EEB /* MANAnimationMaker.m */,
+				A52455DC20679EBD00561EEB /* MANManimator.h */,
+				A52455DD20679EBD00561EEB /* MANManimator.m */,
+			);
+			path = Manimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52455BB20655FE000561EEB /* Manimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52455D220655FE000561EEB /* Build configuration list for PBXNativeTarget "Manimation" */;
+			buildPhases = (
+				A52455B820655FE000561EEB /* Sources */,
+				A52455B920655FE000561EEB /* Frameworks */,
+				A52455BA20655FE000561EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manimation;
+			productName = Manimation;
+			productReference = A52455BC20655FE000561EEB /* Manimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52455B420655FE000561EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HiusonZ;
+				TargetAttributes = {
+					A52455BB20655FE000561EEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A52455B720655FE000561EEB /* Build configuration list for PBXProject "Manimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A52455B320655FE000561EEB;
+			productRefGroup = A52455BD20655FE000561EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52455BB20655FE000561EEB /* Manimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52455BA20655FE000561EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52455CC20655FE000561EEB /* LaunchScreen.storyboard in Resources */,
+				A52455C920655FE000561EEB /* Assets.xcassets in Resources */,
+				A52455C720655FE000561EEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52455B820655FE000561EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52455DB2067956800561EEB /* MANAnimationMaker.m in Sources */,
+				A52455D82067948F00561EEB /* CALayer+MANAdditions.m in Sources */,
+				A52455C420655FE000561EEB /* ViewController.m in Sources */,
+				A52455CF20655FE000561EEB /* main.m in Sources */,
+				A52455C120655FE000561EEB /* AppDelegate.m in Sources */,
+				A52455DE20679EBD00561EEB /* MANManimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A52455C520655FE000561EEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52455C620655FE000561EEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A52455CA20655FE000561EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52455CB20655FE000561EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A52455D020655FE000561EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A52455D120655FE000561EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A52455D320655FE000561EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = Manimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hisuon.Manimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A52455D420655FE000561EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = Manimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hisuon.Manimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52455B720655FE000561EEB /* Build configuration list for PBXProject "Manimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52455D020655FE000561EEB /* Debug */,
+				A52455D120655FE000561EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52455D220655FE000561EEB /* Build configuration list for PBXNativeTarget "Manimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52455D320655FE000561EEB /* Debug */,
+				A52455D420655FE000561EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52455B420655FE000561EEB /* Project object */;
+}
